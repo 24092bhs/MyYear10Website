@@ -61,7 +61,7 @@ img {
     color: white;
     padding: 1em;
     border-radius: 0.5em;
-    box-shadow: 10px 10px 10px rgba(48, 19, 3, 0.2);
+    box-shadow: 20px 20px 20px rgba(48, 19, 3, 0.2);
 }
 
 /* Styling for the topic card titles */
