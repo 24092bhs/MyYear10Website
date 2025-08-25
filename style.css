@@ -73,11 +73,16 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
     background-color: rgb(255, 192, 211);
     color: white;
     text-align: right;
     padding: 3em 3em;
+}
+
+.topic-term-three .topic-content {
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;          /* let the grid size itself */
+    justify-content: center; /* center the row inside the section */
 }
