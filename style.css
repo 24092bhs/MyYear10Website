@@ -50,7 +50,7 @@ img {
     grid-template-columns: repeat(4, 1fr);
     gap: 6em;
     /* bring the whole section in off the sides of the page */
-    width: 70%;
+    justify-content: center;
     /* top margin of 3em and center right/left */
     margin: 3em auto;
 }
@@ -82,7 +82,9 @@ img {
 }
 
 .topic-term-three .topic-content {
-    grid-template-columns: repeat(3, 1fr);
-    width: auto;          /* let the grid size itself */
-    justify-content: center; /* center the row inside the section */
+    display: grid;
+    grid-template-columns: repeat(3, max-content); /* cards shrink to content width */
+    gap: 6em;
+    justify-content: center;  /* centers the 3 cards */
+    width: 100%; /* take full width so centering works */
 }
