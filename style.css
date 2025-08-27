@@ -73,6 +73,18 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.topic-card-link {
+    text-decoration: none;  /* removes underline */
+    color: inherit;         /* keeps text color same as card */
+    display: block;         /* makes link fill the card */
+}
+
+.topic-card-link:hover .topic-card {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
     background-color: rgb(255, 192, 211);
