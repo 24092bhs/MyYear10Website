@@ -89,17 +89,26 @@ img {
     width: 70%;         /* same width as topic sections */
     margin: 3em auto;   /* centers it on the page */
     text-align: center;
-    color: rgb(255, 139, 174);
 }
 
 .about h1 {
     font-size: 2em;
     margin-bottom: 0.5em;
+    background-color: rgb(255, 192, 211); /* pastel pink to match */
+    color: white;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 20px rgba(48, 19, 3, 0.2);
 }
 
 .about p {
     font-size: 1.2em;
     line-height: 1.6em;
+    background-color: rgb(255, 192, 211); /* pastel pink to match */
+    color: white;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 20px rgba(48, 19, 3, 0.2);
 }
 
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
