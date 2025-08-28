@@ -96,15 +96,15 @@ img {
     margin-bottom: 0.5em;
     background-color: rgb(255, 192, 211); /* pastel pink to match */
     color: white;
-    padding: 2em;
-    border-radius: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.25em;
     box-shadow: 10px 10px 20px rgba(48, 19, 3, 0.2);
 }
 
 .about p {
     font-size: 1.2em;
     line-height: 1.6em;
-    background-color: rgb(255, 192, 211); /* pastel pink to match */
+    background-color: rgb(255, 192, 211); 
     color: white;
     padding: 2em;
     border-radius: 0.5em;
